@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/NewCodeAI/static/css/main.f8aeae50.css",
+    "main.js": "/NewCodeAI/static/js/main.6d36dc20.js",
+    "static/js/453.ed3810f9.chunk.js": "/NewCodeAI/static/js/453.ed3810f9.chunk.js",
+    "static/media/b1Web.png": "/NewCodeAI/static/media/b1Web.562ee44a84e5c629b54b.png",
+    "static/media/userImg.jpg": "/NewCodeAI/static/media/userImg.f0b0e41384f1d3464895.jpg",
+    "static/media/srcP.jpg": "/NewCodeAI/static/media/srcP.44e3d5f9f3936e5e144f.jpg",
+    "index.html": "/NewCodeAI/index.html",
+    "main.f8aeae50.css.map": "/NewCodeAI/static/css/main.f8aeae50.css.map",
+    "main.6d36dc20.js.map": "/NewCodeAI/static/js/main.6d36dc20.js.map",
+    "453.ed3810f9.chunk.js.map": "/NewCodeAI/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8aeae50.css",
+    "static/js/main.6d36dc20.js"
+  ]
+}
