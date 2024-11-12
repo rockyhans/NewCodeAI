@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Visit from "./components/Visit";
+import CCompilerVisit from "./components/CCompilerVisit";
+import JavaCompilerVisit from "./components/JavaCompilerVisit";
+import PythonCompilerVisit from "./components/PythonCompilerVisit";
+import CppCompilerVisit from "./components/CppCompilerVisit";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Visit />} />
+        <Route path="/CCompilerVisit" element={<CCompilerVisit />} />
+        <Route path="/JavaCompilerVisit" element={<JavaCompilerVisit />} />
+        <Route path="/PythonCompilerVisit" element={<PythonCompilerVisit />} />
+        <Route path="/CppCompilerVisit" element={<CppCompilerVisit />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
